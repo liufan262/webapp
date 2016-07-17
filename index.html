@@ -539,30 +539,15 @@
 						if (Dom.top_nav.css('display') == 'none') {
 							Dom.m_nav_bottom.show();
 							Dom.top_nav.show();
-                            console.log(Dom.m_nav_bottom.css('display'));
 						} else {
 							Dom.m_nav_bottom.hide();
 							Dom.top_nav.hide();
                             Dom.font_container.hide();
                             Dom.font_button.removeClass('current');
-                            console.log(Dom.m_nav_bottom.css('display'));
 						}
                                
 					});
                     
-                    //夜间和白天模式的转化
-//                    Dom.night_botton.click(function() {
-//                        if (NightMode) {
-//                            $('#day_icon').hide();
-//                            $('#night_icon').show();
-//                            NightMode = false;
-//                        } else {
-//                            $('#day_icon').show();
-//                            $('#night_icon').hide();
-//                            NightMode = true;
-//                        }
-//
-//                    });
                     
                     Dom.night_botton.click(function(){
                         
